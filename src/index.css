@@ -1,0 +1,23 @@
+@import "tailwindcss";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: black;
+    /* Specific properties transition to prevent rendering lag */
+    transition: background-color 0.8s cubic-bezier(0.23, 1, 0.320, 1),
+        color 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+}
+canvas{
+    pointer-events: none;
+}
+::selection {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Webkit Selection (Safari / Chrome Legacy) */
+::-webkit-selection {
+    background-color: #000000;
+    color: #ffffff;
+}
