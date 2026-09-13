@@ -1,16 +1,33 @@
-# React + Vite
+# ThirtySixStudio — Interactive Animated Web Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, visually engaging landing page inspired by ThirtySixStudio. Built using **React**, **Vite**, **Tailwind CSS**, **GSAP (ScrollTrigger)**, and **Locomotive Scroll**.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Dynamic Canvas Animation:** Smooth image sequences rendered dynamically using HTML5 Canvas.
+* **Scroll Parallax Effect:** GSAP ScrollTrigger integrated floating elements (chillies) with smooth scrubbing.
+* **Custom Interactive Cursor:** Custom chili image cursor tracking mouse position.
+* **Dynamic Theme Transition:** Interactive red-to-black bottom-up oval transition using GSAP `clipPath`.
+* **Smooth Scrolling:** Integrated with Locomotive Scroll for fluid page navigation.
+* **Responsive Layout:** Minimalist design with customized form inputs and responsive grids.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack & Dependencies
 
-## Expanding the ESLint configuration
+* **Frontend Framework:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Animations:** GSAP (`@gsap/react`, `ScrollTrigger`)
+* **Smooth Scroll:** Locomotive Scroll
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Getting Started
+
+Follow these steps to run the project locally on your machine:
+
+### 1. Clone or Extract the Repository
+If using Git, clone the project:
+```bash
+git clone [https://github.com/YOUR_USERNAME/thirtysixstudio.git](https://github.com/YOUR_USERNAME/thirtysixstudio.git)
+cd thirtysixstudio
